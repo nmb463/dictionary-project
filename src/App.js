@@ -9,7 +9,7 @@ export default function App() {
           <h1>Definition Please!</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="jovial" />
         </main>
         <footer className="App-footer">
           <small>Coded by Nicole Banda and <a href="https://github.com/nmb463/dictionary-project.git" target="_blank" rel="noreferrer"> open-sourced on GitHub</a></small>

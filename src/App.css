@@ -1,3 +1,13 @@
+body {
+  background: #385170; 
+}
+
+.App h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
 .App-header {
   margin: 30px 0;
   text-align: center;
@@ -6,4 +16,5 @@
 .App-footer {
   text-align: center;
   margin: 30px 0;
+  color: white;
 }
