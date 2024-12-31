@@ -24,6 +24,8 @@ export default function Dictionary(props) {
          let apiKey= `f917a08757btf485b3af40o0e41087f1`;
          let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
          axios.get(apiUrl).then(handleDictionaryResponse);
+
+         //documentation: https://www.shecodes.io/learn/apis/images
         let imageApiUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${apiKey}`; 
         axios.get(imageApiUrl).then(handleImageResponse);
 
